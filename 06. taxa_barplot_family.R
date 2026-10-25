@@ -11,7 +11,7 @@ library(RColorBrewer)
 
 
 
-setwd("C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome")
+setwd("Documents/Analysis/MOBILE/MOBILE_microbiome")
 input_dir <- getwd()
 
 ## mypop ##
