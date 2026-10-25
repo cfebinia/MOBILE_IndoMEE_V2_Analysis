@@ -2,7 +2,7 @@ rm(list=ls())
 
 library(dplyr)
 
-refdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/INDOMEE_refdata"
+refdir="Documents/Analysis/MOBILE/INDOMEE_refdata"
 
 setwd(refdir)
 
