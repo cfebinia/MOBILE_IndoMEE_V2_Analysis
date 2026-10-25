@@ -5,8 +5,8 @@ library(tidyr)
 library(ggplot2)
 
 # Set directories
-basedir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome"
-refdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/INDOMEE_refdata"
+basedir="Documents/Analysis/MOBILE/MOBILE_microbiome"
+refdir="Documents/Analysis/MOBILE/INDOMEE_refdata"
 
 setwd(basedir)
 
@@ -331,7 +331,7 @@ df <- read.delim(file.path(inputdir,infile)) %>%
 #}
 
 # diet vs transition/community
-inputdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome/input_files/MAASLIN3_onlyhumanFecal"
+inputdir="Documents/Analysis/MOBILE/MOBILE_microbiome/input_files/MAASLIN3_onlyhumanFecal"
 read_maaslin_result <- function(infile, filter=NULL){
   x <- read.delim(file.path(inputdir,infile)) %>%
     filter(is.na(error)) %>%
