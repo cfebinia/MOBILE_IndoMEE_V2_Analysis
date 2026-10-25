@@ -1,7 +1,7 @@
 rm(list=ls())
 
-refdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/INDOMEE_refdata"
-WD="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome/"
+refdir="Documents/Analysis/MOBILE/INDOMEE_refdata"
+WD="Documents/Analysis/MOBILE/MOBILE_microbiome/"
 
 setwd(refdir)
 
