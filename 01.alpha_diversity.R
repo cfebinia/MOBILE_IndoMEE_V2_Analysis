@@ -7,8 +7,8 @@ library(abdiv)
 
 # source("99.community_data_utils.R") # load custom scripts
 
-basedir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome"
-refdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/INDOMEE_refdata"
+basedir="C:/Users/caf77/Documents/Analysis/MOBILE/MOBILE_microbiome"
+refdir="C:/Users/caf77/Documents/Analysis/MOBILE/INDOMEE_refdata"
 
 setwd(basedir)
 #################
