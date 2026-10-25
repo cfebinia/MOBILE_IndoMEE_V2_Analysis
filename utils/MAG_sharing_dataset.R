@@ -1,6 +1,6 @@
-basedir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/Wellcome_poster"
-refdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/INDOMEE_refdata"
-outdir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/Wellcome_poster/output_files/MAG_sharing"
+basedir="Documents/Analysis/MOBILE/Wellcome_poster"
+refdir="Documents/Analysis/MOBILE/INDOMEE_refdata"
+outdir="Documents/Analysis/MOBILE/Wellcome_poster/output_files/MAG_sharing"
 
 # load metadata
 popdf <- read.delim("input_files/Consolidated_SampleID_combined_final_SeqIDmatched.tsv")
