@@ -1,5 +1,5 @@
 rm(list=ls())
-setwd("C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome")
+setwd("Documents/Analysis/MOBILE/MOBILE_microbiome")
 input_folder <- "input_files/humanFecal_draft1/summary"
 abundance <- paste0(input_folder,"/","bwa_counts_total_filtered_wMetadata_humanFecal_strongFilter_relAbund.tsv")
 metadata.raw <- "input_files/mobile_metadata.tsv"
